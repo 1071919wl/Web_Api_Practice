@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import RandomName from './RandomName'
+import Clicker from './Clicker'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Clicker />
+    <RandomName />
   </React.StrictMode>,
   document.getElementById('root')
 );
